@@ -1,0 +1,26 @@
+h1{
+    border: 2pt  slateblue;
+    border-style: dotted;
+    background-color: cyan;
+    
+    zoom: 100%;
+    color: rgba(110, 92, 140, 1);
+    
+}
+article{
+    font-size: 22pt;
+}
+.italics{
+    font-style: italic;
+    font-family: fantasy;
+    color: rgba(0, 0, 0, 1);
+    background-color:#77899a ;
+    color: crimson;
+    
+    
+}
+body{
+    background-image: url("C:/Users/sarfa/OneDrive/Desktop/th.jpeg") ;
+    background-attachment: scroll;
+    background-size: 100%;
+}

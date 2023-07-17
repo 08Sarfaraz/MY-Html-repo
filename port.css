@@ -1,0 +1,16 @@
+.container{
+    float: left;
+    box-sizing: content-box;
+    margin-left: 2em;
+    border: 2pt dashed black;
+    
+
+}
+.image{
+    margin-left: 1cm;
+    float: right;
+}
+.padding{
+    margin-left: 20%;
+}
+

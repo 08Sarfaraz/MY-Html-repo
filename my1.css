@@ -1,0 +1,35 @@
+figure{
+    
+    float:right;
+    border: 5px solid red;
+    
+}
+.container{
+  
+   position: absolute;
+   padding: 22pt;
+   margin-top: 22ch;
+   align-items: center;
+   text-align: left;
+   
+}
+div{
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+.border1{
+    border-color: black;
+    border: 5pt solid;
+    padding: 2cm;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+#border2{
+    border: 5px solid;
+    border-color: chartreuse;
+}
+
