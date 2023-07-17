@@ -5,16 +5,29 @@
 <title>Cascade of CSS</title>
 <link rel="stylesheet" href="external.css">
 <style>
+  p{
+    color: maroon;
+  }
+  body{
+    background-color: blueviolet
+  }
+  #div1{
+    background-color: aqua;
+  }
+  #h1{
+    background-color: chocolate;
+  }
 
-p {
-  color: maroon;
-}
 
 </style>
 </head>
 <body>
-<h1>Origin Example</h1>
-<p>The rule is simple: last declaration wins.</p>
-<p style="color: black;">If there is no conflict, declarations merge into one rule.</p>
+<div id="div1">
+  <h1 id="h1">Origin Example</h1>
+  <p style="color: red;">If there is no conflict, declarations merge into one rule.</p>
+  <p style="color: green;">The rule is simple: last declaration wins.</p>
+
+</div> 
+
 </body>
 </html>
